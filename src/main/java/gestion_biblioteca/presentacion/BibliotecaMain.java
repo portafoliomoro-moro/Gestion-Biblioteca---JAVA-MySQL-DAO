@@ -42,6 +42,7 @@ public class BibliotecaMain {
         var salir = false;
         switch(opcion){
             case 1 -> UsuarioCRUD.usuarioApp();
+            case 2 -> LibrosCRUD.libroApp();
         }
         return salir;
     }
