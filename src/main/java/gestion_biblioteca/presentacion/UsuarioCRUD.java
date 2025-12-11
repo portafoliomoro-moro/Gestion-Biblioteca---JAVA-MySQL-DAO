@@ -25,7 +25,9 @@ public class UsuarioCRUD {
 
     private static int mostrarMenu(Scanner consola){
         System.out.print("""
-                *** Gestión Usuarios ***
+                --------------------------
+                --- Gestión Usuarios ---
+                --------------------------
                 1. Listar Usuarios
                 2. Buscar Usuario
                 3. Agregar Usuario
@@ -132,7 +134,7 @@ public class UsuarioCRUD {
                 }
             }
             case 6 -> {
-                System.out.println("Hasta pronto!");
+                System.out.println("Regresando al menú principal...");
                 salir = true;
             }
             default -> System.out.println("Opción No reconocida: " + opcion);
