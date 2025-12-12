@@ -11,8 +11,7 @@ Este proyecto implementa un sistema completo de **gestión de biblioteca**, desa
 
 ---
 
-# 🏗 Arquitectura del Proyecto
-
+# Arquitectura del Proyecto
 /src
  ├── dominio/
  │     ├── EstadoLibro.java
