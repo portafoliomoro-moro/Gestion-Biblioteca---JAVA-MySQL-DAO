@@ -47,6 +47,12 @@ public class BibliotecaMain {
             case 2 -> LibrosCRUD.libroApp();
             case 3 -> PrestamoCRUD.prestamoApp();
             case 4 -> FuncionarioCRUD.funcionariosApp();
+            case 5 -> EventoCRUD.eventosApp();
+            case 6 -> {
+                System.out.println("Hasta pronto!");
+                salir = true;
+            }
+            default -> System.out.println("Opción No reconocida: " + opcion);
         }
         return salir;
     }
