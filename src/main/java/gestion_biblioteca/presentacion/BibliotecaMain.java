@@ -43,6 +43,7 @@ public class BibliotecaMain {
         switch(opcion){
             case 1 -> UsuarioCRUD.usuarioApp();
             case 2 -> LibrosCRUD.libroApp();
+            case 3 -> PrestamoCRUD.prestamoApp();
         }
         return salir;
     }
