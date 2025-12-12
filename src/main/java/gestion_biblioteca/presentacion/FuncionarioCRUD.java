@@ -25,7 +25,9 @@ public class FuncionarioCRUD {
 
     private static int mostrarMenu (Scanner consola){
         System.out.print("""
-                *** Gestión de Funcionarios ***
+                --------------------------------
+                --- Gestión de Funcionarios ---
+                --------------------------------
                 1. Listar Funcionarios
                 2. Buscar Funcionario
                 3. Agregar Funcionario
