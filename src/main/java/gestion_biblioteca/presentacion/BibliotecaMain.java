@@ -1,5 +1,7 @@
 package gestion_biblioteca.presentacion;
 
+import gestion_biblioteca.dominio.Funcionario;
+
 import java.util.Scanner;
 
 public class BibliotecaMain {
@@ -44,6 +46,7 @@ public class BibliotecaMain {
             case 1 -> UsuarioCRUD.usuarioApp();
             case 2 -> LibrosCRUD.libroApp();
             case 3 -> PrestamoCRUD.prestamoApp();
+            case 4 -> FuncionarioCRUD.funcionariosApp();
         }
         return salir;
     }
