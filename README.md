@@ -14,7 +14,6 @@ Este proyecto es un sistema completo para la **gestión de biblioteca**, impleme
 # 🏗 Arquitectura del Proyecto
 
 ```
-# 🏗 Arquitectura del Proyecto
 
 /src/main/java/gestion_biblioteca
  ├── conexion/
