@@ -123,9 +123,11 @@ Este repositorio forma parte de mi ruta de aprendizaje backend con Java, donde d
 
 ---
 
-🙌 Autor
-morocho
-📧 Correo: *portafoliomoro@gmail.com*
-🔗 GitHub: *portafoliomoro-moro*
+# 🙌 Autor
 
+**morocho**  
+📧 Correo: *portafoliomoro@gmail.com*  
+🔗 GitHub: *portafoliomoro-moro*  
+
+---
 
