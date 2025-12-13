@@ -112,28 +112,16 @@ Cada opción despliega un submenú específico con las operaciones CRUD correspo
 - El script para crear la base y tablas está en `database/schema.sql`
 - Ejecutar este script antes de iniciar la aplicación
 
-Ejemplo para ejecutar el script:
+---
 
-```bash
-mysql -u usuario -p < database/schema.sql
+# 📌 Objetivo del Proyecto
 
-Tecnologías y Herramientas
-Java 17+
+Este repositorio forma parte de mi ruta de aprendizaje backend con Java, donde desarrollo un CRUD por cada módulo del sistema **Gestión de Biblioteca**, iniciando con JDBC antes de avanzar hacia:
 
-MySQL 8+
+➡ Spring Boot  
+➡ Spring MVC + Thymeleaf
 
-JDBC Driver oficial
-
-Maven para gestión de dependencias
-
-Patrón DAO y arquitectura en 3 capas
-
-Programación Orientada a Objetos (POO)
-
-📌 Objetivo del Proyecto
-Este repositorio forma parte de mi aprendizaje en backend con Java.
-Mi objetivo es desarrollar sistemas sólidos con buenas prácticas y arquitectura limpia.
-Actualmente uso JDBC y DAOs, con planes de migrar a frameworks como Spring Boot.
+---
 
 🙌 Autor
 morocho
