@@ -93,18 +93,14 @@ La clase `BibliotecaMain.java` muestra un menú general con opciones para cada m
 
 *** Gestión de Biblioteca ***
 
-Gestión de Usuarios
-
-Gestión de Libros
-
-Gestión de Préstamos
-
-Gestión de Funcionarios
-
-Gestión de Eventos
-
-Salir
-
+```
+1. Gestión Usuarios
+2. Gestión Libros
+3. Gestión Préstamos
+4. Gestión Funcionarios
+5. Gestión Eventos
+6. Salir
+```
 
 Cada opción despliega un submenú específico con las operaciones CRUD correspondientes.
 
