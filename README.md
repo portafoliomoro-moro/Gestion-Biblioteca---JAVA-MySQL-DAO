@@ -11,17 +11,38 @@ Este proyecto es un sistema completo para la **gestión de biblioteca**, impleme
 
 ---
 
-## 🏗 Arquitectura del Proyecto
+# 🏗 Arquitectura del Proyecto
 
 /src/main/java/gestion_biblioteca
-├── conexion/ # Clase para conexión JDBC a MySQL
-├── datos/ # Interfaces y clases DAO para cada entidad
-├── dominio/ # Clases de entidad que representan tablas
-└── presentacion/ # Menús y lógica para interacción por consola
-/database
-└── schema.sql # Script para crear la base de datos y tablas
-README.md # Documentación del proyecto
-pom.xml # Dependencias y configuración Maven
+ ├── conexion/
+ │     └── Conexion.java
+ │
+ ├── datos/
+ │     ├── IUsuarioDAO.java
+ │     ├── UsuarioDAO.java
+ │     ├── ILibroDAO.java
+ │     ├── LibroDAO.java
+ │     ├── IPrestamoDAO.java
+ │     ├── PrestamoDAO.java
+ │     ├── IFuncionarioDAO.java
+ │     ├── FuncionarioDAO.java
+ │     ├── IEventoDAO.java
+ │     └── EventoDAO.java
+ │
+ ├── dominio/
+ │     ├── Usuario.java
+ │     ├── Libro.java
+ │     ├── Prestamo.java
+ │     ├── Funcionario.java
+ │     └── Evento.java
+ │
+ └── presentacion/
+       ├── BibliotecaMain.java
+       ├── UsuarioCRUD.java
+       ├── LibrosCRUD.java
+       ├── PrestamoCRUD.java
+       ├── FuncionarioCRUD.java
+       └── EventoCRUD.java
 
 ---
 
