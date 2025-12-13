@@ -14,36 +14,35 @@ Este proyecto es un sistema completo para la **gestión de biblioteca**, impleme
 # 🏗 Arquitectura del Proyecto
 
 /src/main/java/gestion_biblioteca
- ├── conexion/
- │     └── Conexion.java
- │
- ├── datos/
- │     ├── IUsuarioDAO.java
- │     ├── UsuarioDAO.java
- │     ├── ILibroDAO.java
- │     ├── LibroDAO.java
- │     ├── IPrestamoDAO.java
- │     ├── PrestamoDAO.java
- │     ├── IFuncionarioDAO.java
- │     ├── FuncionarioDAO.java
- │     ├── IEventoDAO.java
- │     └── EventoDAO.java
- │
- ├── dominio/
- │     ├── Usuario.java
- │     ├── Libro.java
- │     ├── Prestamo.java
- │     ├── Funcionario.java
- │     └── Evento.java
- │
- └── presentacion/
-       ├── BibliotecaMain.java
-       ├── UsuarioCRUD.java
-       ├── LibrosCRUD.java
-       ├── PrestamoCRUD.java
-       ├── FuncionarioCRUD.java
-       └── EventoCRUD.java
-
+├── conexion/
+│ └── Conexion.java
+│
+├── datos/
+│ ├── IUsuarioDAO.java
+│ ├── UsuarioDAO.java
+│ ├── ILibroDAO.java
+│ ├── LibroDAO.java
+│ ├── IPrestamoDAO.java
+│ ├── PrestamoDAO.java
+│ ├── IFuncionarioDAO.java
+│ ├── FuncionarioDAO.java
+│ ├── IEventoDAO.java
+│ └── EventoDAO.java
+│
+├── dominio/
+│ ├── Usuario.java
+│ ├── Libro.java
+│ ├── Prestamo.java
+│ ├── Funcionario.java
+│ └── Evento.java
+│
+└── presentacion/
+├── BibliotecaMain.java
+├── UsuarioCRUD.java
+├── LibrosCRUD.java
+├── PrestamoCRUD.java
+├── FuncionarioCRUD.java
+└── EventoCRUD.java
 ---
 
 ## 📦 Módulos y funcionalidades
